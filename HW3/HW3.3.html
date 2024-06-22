@@ -22,25 +22,25 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+            align-items: stretch;
         }
         .card{
             width: 200px;
             background-color: #973131;
-            transition: all 0.8s;
+            transition: all 0.9s;
             font-family: sans-serif;
             padding: 12px 12px 4px 12px;
-            border-radius: 10px;
+            border-radius: 9px;
             cursor: pointer;
             color: #F5E7B2;
-            flex-grow: 1 0;
-
             box-shadow: 1px 9px 13px 6px rgba(0,0,0,0.22);
             -webkit-box-shadow: 1px 9px 13px 6px rgba(0,0,0,0.22);
             -moz-box-shadow: 1px 9px 13px 6px rgba(0,0,0,0.22);
+            border: 3px solid currentColor;
         }
         .card h2{
             font-size: 20px;
-            margin-bottom: 12px;
+            margin-bottom: 14px;
         }
         .card p{
             font-size: 15px;
@@ -49,6 +49,7 @@
         .card:hover{
             background-color: #F5E7B2;
             color: #973131;
+            transform: scale(1.06);
         }
 
     </style>
