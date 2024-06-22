@@ -13,5 +13,5 @@
 - [Homework 2.3](HW2/hw2.3.html)
 
 ### lesson 3
-- [Homework 3.2](HW2/hw3.2.html)
-- [Homework 3.3](HW2/hw3.3.html)
+- [Homework 3.2](HW3/HW3.2.html)
+- [Homework 3.3](HW3/HW3.3.html)
