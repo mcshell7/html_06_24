@@ -1,5 +1,5 @@
 
-# Home works navigation 
+# Home works navigation
 
 ### lesson 1 
 - [Homework 1.1](HW1/hm1.1.html)
@@ -15,3 +15,8 @@
 ### lesson 3
 - [Homework 3.2](HW3/HW3.2.html)
 - [Homework 3.3](HW3/HW3.3.html)
+
+### lesson 4
+- [Homework 4.1](HW4/HW4.1.html)
+- [Homework 4.2](HW4/HW4.2.html)
+- [Homework 4.3](HW4/HW4.3.html)
