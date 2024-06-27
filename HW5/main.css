@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Syncopate:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+body{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+    /*background-color: #F8F6F4;*/
+    background-color: #e7dfbc;
+    color: #414042;
+}
+ul,li{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.button{
+    background-color: #e7dfbc;
+    line-height: 1;
+    font-size: 15px;
+    text-align: center;
+    padding: 16px 30px;
+    border-radius: 40px;
+    display: inline-block;
+    transition: 0.4s;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #414042;
+}
+.button:hover{
+    transition: 0.8s;
+    background-color: #F6E6CB;
+    color: #2F3645;
+}
+.link{
+    display: inline-block;
+    text-decoration: underline;
+
+}
+
+
+/* ---------------HW5.1-------------- */
+
+
+.header{
+    background-color: #414042;
+    color: #e9dfb8;
+}
+.logo{
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+}
+.header__inner{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.menu ul li a{
+    font-size: 18px;
+
+}
+.hero{
+    height: 90vh;
+    background-image: url("HW5.1/images/bg-dark.webp");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    color: #e9dfb8;
+}
+.hero h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+
+}
+.hero p{
+    font-size: 18px;
+    max-width: 700px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.about{
+    display: flex;
+    height: 90vh;
+    gap: 50px;
+}
+.about__img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+.about__content{
+    width: 50%;
+    align-content: center;
+    padding-right: 50px;
+    color: #151D28;
+}
+.h1{
+    font-size: 48px;
+    color: #415167;
+}
+.section--shop{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.section--shop__item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    width: 50%;
+    height: 100%;
+    color: #fff;
+}
+.contacts{
+    color: #414042;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+.contacts__content{
+    width: 50%;
+    padding: 30px;
+}
+.contacts__content h1{
+    margin-bottom: 12px;
+}
+.contacts__content p{
+    margin-bottom: 12px;
+}
+.contacts__content address a {
+    display: block;
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+.contacts__img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------HW5.2-------------- */
+
+.flex-center-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.top,.bottom{
+    height: 50vh;
+    width: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10%;
+}
+.top h2, .bottom h2{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.top{
+    background-color: #78A083;
+}
+.bottom{
+    background-color: #35374B;
+}
+/* ---------------HW5.3-------------- */
+
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 20px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.colors-title{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.colors__card{
+    width: 180px;
+    height: 180px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.colors__card:hover{
+    transition: all 0.8s;
+    transform: scale(1.05);
+}
