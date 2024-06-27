@@ -20,3 +20,11 @@
 - [Homework 4.1](HW4/HW4.1.html)
 - [Homework 4.2](HW4/HW4.2.html)
 - [Homework 4.3](HW4/HW4.3.html)
+
+### lesson 5
+- [Homework 5 main.css](HW5/main.css)
+- [Homework 5.1 Home](HW5/HW5.1/home.html)
+- [Homework 5.1 Contacts](HW5/HW5.1/contacts.html)
+- [Homework 5.1 About Us](HW5/HW5.1/about.html)
+- [Homework 5.2](HW5/HW5.2.html)
+- [Homework 5.3](HW5/HW5.3.html)
