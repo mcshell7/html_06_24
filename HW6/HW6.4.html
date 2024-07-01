@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            color: #fff;
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+        header,footer{
+            height: 22vh;
+            background-color: #D9D9D9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header{
+            background-color: #8D8484;
+        }
+        footer{
+            background-color: #BDBDBD;
+        }
+        main{
+            height: 56vh;
+            background-color: #A4A4A4;
+            display: flex;
+        }
+        .sidebar{
+            background-color: #C0BDBD;
+            height: 100%;
+            width: 27vw;
+        }
+        .content{
+            width: 73vw;
+            height: 100%;
+            background-color: #A4A4A4;
+        }
+        .content > div {
+            height: 33.3%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content .top{
+            background-color: #776969;
+        }
+        .content .bottom{
+            background-color: #643030;
+        }
+        .content .middle{
+            background-color: #441818;
+        }
+        .sidebar > div{
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .sidebar .top{
+            background-color: #937575;
+        }
+        .sidebar .bottom{
+            background-color: #644C4C;
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <main>
+        <div class="content">
+            <div class="top">Div</div>
+            <div class="middle">Div</div>
+            <div class="bottom">Div</div>
+        </div>
+        <div class="sidebar">
+            <div class="top">Spam</div>
+            <div class="bottom">Spam</div>
+        </div>
+    </main>
+    <footer>Footer</footer>
+</body>
+</html>

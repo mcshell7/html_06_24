@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        header,footer{
+            height: 22vh;
+            background-color: #D9D9D9;
+            
+        }
+        main{
+            height: 56vh;
+            background-color: #A4A4A4;
+            display: flex;
+        }
+        .sidebar{
+            background-color: #C0BDBD;
+            height: 100%;
+            width: 27vw;
+        }
+        .content{
+            width: 46vw;
+            height: 100%;
+            background-color: #A4A4A4;
+        }
+        .content div {
+            height: 50%;
+            width: 100%;
+        }
+        .content .top{
+            background-color: #827878;
+        }
+        .content .bottom{
+            background-color: #B7ADAD;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+
+        <div class="sidebar"></div>
+        <div class="content">
+            <div class="top"></div>
+            <div class="bottom"></div>
+        </div>
+        <div class="sidebar"></div>
+    </main>
+    <footer></footer>
+</body>
+</html>
