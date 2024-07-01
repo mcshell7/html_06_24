@@ -28,3 +28,9 @@
 - [Homework 5.1 About Us](HW5/HW5.1/about.html)
 - [Homework 5.2](HW5/HW5.2.html)
 - [Homework 5.3](HW5/HW5.3.html)
+
+### lesson 6
+- [Homework 6.1](HW6/HW6.1.html)
+- [Homework 6.2](HW6/HW6.2.html)
+- [Homework 6.3](HW6/HW6.3.html)
+- [Homework 6.4](HW6/HW6.4.html)
