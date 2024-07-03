@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+body{
+    line-height: normal;
+    font-weight: 400;
+    font-family: "KoHo", sans-serif;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('images/bg.png');
+}
+.top{
+    height: 100vh;
+}
+.top .top__inner{
+    max-width: 1060px;
+    width: 100%;
+    height: 393px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top .item{
+    width: 50%;
+    height: 100%;
+}
+.top h2{
+    font-size: 45px;
+}
+.top p{
+    font-size: 25px;
+}
+
+.top .item--img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('images/forest.png');
+}
+.top .item--bg{
+    background-color: #ffffff;
+    padding: 60px;
+    text-align: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-space-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn{
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    height: 76px;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-reg{
+    color: #000;
+    font-size: 30px;
+}
+.btn-grey{
+    color: #6B6666;
+    font-size: 35px;
+}
+.section-video ,.store{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.section-video{
+    width: 100%;
+    padding: 104px 0 87px;
+
+}
+.section-video__inner{
+    max-width: 950px;
+    margin: 0 auto;
+}
+.section-video iframe {
+    width: 100%;
+    height: 530px;
+    margin-bottom: 110px;
+    border: 0;
+}
+.section-video p {
+    font-size: 35px;
+}
+.uppercase{
+    display: block;
+    text-transform: uppercase;
+}
+.store{
+    padding: 160px 0;
+}
+.store__items{
+    gap: 45px;
+    width: 100%;
+    padding: 0 25px;
+}
+.card {
+    text-align: center;
+    padding: 25px 22px 105px 22px;
+    width: 33.33%;
+    background: rgba(83, 83, 83, 0.40);
+    font-size: 35px;
+}
+.card img{
+    height: 214px;
+    width: 100%;
+    margin-bottom: 24px;
+    object-fit: cover;
+}
+.card h4 {
+    margin-bottom: 24px;
+}
+.card .text {
+    margin-bottom: 60px;
+}
+.card .price{
+    margin-bottom: 25px;
+}
