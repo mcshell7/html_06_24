@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+ul, li {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+    transition: 0.8s;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    background-color: #fff;
+    color: #000000;
+}
+
+.header__inner {
+    height: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.menu__list {
+    display: flex;
+    gap: 60px;
+}
+
+.primary {
+    color: #A90102;
+}
+.card__list-item.unavailable {
+    color: #A19FA0;
+}
+
+.card{
+    height: calc(100vh - 133px);
+    background: #FBF6F3;
+}
+.card__inner{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 970px;
+    margin: 0 auto;
+    gap: 50px;
+}
+.card__img{
+    width: 100%;
+    max-width: 582px;
+    object-fit: cover;
+}
+.card__content{
+    width: 100%;
+    max-width: 340px;
+}
+
+.card__title{
+    margin-bottom: 35px;
+    font-size: 48px;
+    font-weight: 400;
+}
+.card__price{
+    margin-bottom: 35px;
+    font-size: 36px;
+}
+.card__list{
+    margin-bottom: 48px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.card__text{
+    font-size: 18px;
+
+}
