@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5f5f7;
+    color: #1D1D1F;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: "Inter", sans-serif;
+    position: relative;
+}
+ul,li{
+    list-style: none;
+}
+img{
+    display: inline-block;
+    height: 100%;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: currentColor;
+}
+h1{
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -1.44px;
+}
+
+a>img{
+    display: block;
+    margin: auto 0;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.header{
+    background-color: #fff;
+}
+.header__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    height: 50px;
+}
+.menu__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.header__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.menu{
+    font-size: 12px;
+    line-height: 1;
+}
+
+li:not(:last-child){
+    /*background-color: #536750;*/
+}
+
+.gadget__menu {
+    background-color: #f9f9fa;
+    padding-bottom: 30px;
+}
+.gadget__menu .menu__list{
+    align-items: flex-end;
+}
+.gadget__menu .menu__link{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gadget__menu .menu__link img{
+    margin-bottom: 5px;
+}
+
+.hero{
+    padding: 70px 0 50px;
+    text-align: center;
+}
+.hero img{
+    margin-bottom: 65px;
+}
+.hero h1{
+    margin-bottom: 50px;
+}
+.hero p {
+    color: #86868B;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+}
+
+
+.circle {
+
+    border: 10px solid darkcyan;
+    border-radius: 50%;
+    border-top: 10px solid darkseagreen;
+    animation: spin 5s linear alternate ;
+    margin: auto;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    width: 120px;
+    height: 120px;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
