@@ -161,3 +161,125 @@ body {
 .product__card-price.sale {
     color: #DD152D;
 }
+
+/*-----------------------HW13.1----------------------------*/
+img{
+    width: 100%;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.wh13_1 .logo{
+    display: inline-flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.wh13_1 .logo img{
+    width: 60px;
+    object-fit: contain;
+    margin-right: 20px ;
+}
+.wh13_1 .header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 30px;
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.wh13_1 .menu{
+    margin-left: auto;
+}
+.wh13_1 .button{
+    width: max-content;
+    background-color: #ffffff;
+    padding: 0 20px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.wh13_1 .menu__list {
+    gap: 15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.wh13_1 .menu__item {
+    line-height: 1;
+}
+.wh13_1 .menu__list svg{
+    fill: #ffffff;
+}
+.hero{
+    width: 100%;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero h1{
+    max-width: 600px;
+    margin: 0 auto 20px;
+    color: #ffffff;
+    font-size: 32px;
+
+}
+.hero form{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #fff;
+    border-radius: 6px;
+    width: 100%;
+}
+input[type="search"]{
+    max-width: 445px;
+    width: 100%;
+    font-size: 16px;
+    height: 60px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+.hero__btn-photo{
+    display: inline-flex;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    margin: 5px 20px 5px 5px;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+}
+.hero__btn-photo svg{
+    margin-right: 4px;
+}
+button{
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.hero__btn{
+    background-color: transparent;
+    width: 80px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
