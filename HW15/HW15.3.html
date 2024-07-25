@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-size: 30px;
+            text-align: right;
+            padding: 20px;
+        }
+        ul,li{
+            list-style: none;
+        }
+        .menu__list{
+            display: flex;
+            gap: 15px;
+        }
+        .menu__link{
+            display: inline-block;
+            padding: 20px;
+            text-decoration: none;
+            color: #FFFFFF;
+            background-color: darkslategrey;
+        }
+        .hero{
+            margin: 20px 0;
+            background-color: darkslategrey;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            height: 200px;
+        }
+        article{
+            background-color: darkslategrey;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            width: calc(50% - 10px);
+            height: 120px;
+        }
+        .flex{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        footer{
+            text-align: center;
+            background-color: darkslategrey;
+            color: #FFFFFF;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        @media screen and (max-width: 480px) {
+            body{
+                text-align: center;
+            }
+            .menu__list{
+                flex-wrap: wrap;
+            }
+            .menu__item,.menu__link{
+                width: 100%;
+                text-align: center;
+            }
+            .flex{
+                flex-wrap: wrap;
+            }
+            article{
+                width: 100%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a href="" class="menu__link">Link 1</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Link 2</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Link 3</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Link 4</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="hero">Banner</section>
+
+<div class="flex">
+    <article>Article 1</article>
+    <article>Article 2</article>
+    <article>Article 3</article>
+    <article>Article 4</article>
+</div>
+<footer>Footer</footer>
+
+
+</body>
+</html>
